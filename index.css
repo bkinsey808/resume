@@ -1,0 +1,143 @@
+@page {
+  size: 8.5in 11.0in;
+  margin:0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arimo', sans-serif;
+  padding: 0.5in;
+  margin: 0.5in;
+  background-color: white;
+  position: relative;
+  width: 8.5in;
+  height: 11in;
+}
+
+aside {
+  color: white;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom:.5in;
+  width: 2.5in;
+  background-color: rgb(19, 54, 131);
+  font-size: 0.25in;
+}
+
+main {
+  position: absolute;
+  left: 2.5in;
+  right: .5in;
+  top: 0;
+  bottom: .5in;
+}
+
+h1 {
+  margin:0;
+  margin-bottom: .2in;
+  font-size: .4in;
+  padding: .1in;
+  padding-left: .15in;
+}
+
+aside h2 {
+  font-size: .3in;
+  background-color: #002e58;
+  padding: .1in;
+  padding-left: .15in;
+  padding-top: .16in;
+  margin-bottom: .0in;
+}
+
+h3 {
+  font-size: 0.15in;
+  padding: .1in;
+  padding-left: .15in;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+aside div {
+  margin: .1in;
+  padding-left: .05in;
+}
+
+main h3 {
+  padding-left: 0;
+}
+.personal_info {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.phone {
+  padding-top: 0;
+  margin-top: 0;
+  font-size: .325in;
+}
+
+.linkedin {
+  padding-top: 0;
+  margin-top: 0;
+  font-size: .18in;
+}
+
+.github {
+  padding-top: 0;
+  margin-top: 0;
+  font-size: .22in;
+}
+
+.twitter {
+  padding-top: 0;
+  margin-top: 0;
+  font-size: .37in;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section {
+  margin-left: .1in;
+}
+
+section h2 {
+  font-size: .25in;
+  color: #002e58;
+  margin-top: .1in;
+  margin-bottom: 0;
+  padding: .1in;
+  padding-bottom: .08in;
+  padding-left: .2in;
+  padding-right: .2in;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+section div h3:first-child {
+  padding-top: .01in;
+}
+
+section > div {
+  padding-left: .2in;
+  font-size: .2in;
+}
+
+section a {
+  color:  #002e58;
+}
+
+.bare {
+  padding-top: .1in;
+}
