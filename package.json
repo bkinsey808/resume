@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "chromium-browser --headless --print-to-pdf index.html && qpdf output.pdf --split-pages=1 resume.pdf && rm resume-2.pdf output.pdf && mv resume-1.pdf resume.pdf"
+    "build": "chromium-browser --headless --print-to-pdf index.html && qpdf output.pdf --split-pages=1 resume.pdf && rm resume-2.pdf output.pdf && mv resume-1.pdf ben_kinsey_resume.pdf"
   },
   "devDependencies": {
     "live-server": "^1.2.0"
