@@ -3,7 +3,7 @@
     "build": "chromium-browser --headless --print-to-pdf index.html && qpdf output.pdf --split-pages=1 resume.pdf && rm resume-2.pdf output.pdf && mv resume-1.pdf ben_kinsey_resume.pdf"
   },
   "devDependencies": {
-    "live-server": "^1.2.0",
+    "live-server": "^1.2.1",
     "prettier": "^1.15.3"
   }
 }
