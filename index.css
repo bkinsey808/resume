@@ -1,5 +1,5 @@
 @page {
-  size: 8.5in 11.0in;
+  size: 8.5in 11in;
   margin: 0;
 }
 
@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo", sans-serif;
   padding: 0.5in;
   margin: 0.5in;
   background-color: white;
@@ -22,7 +22,7 @@ aside {
   position: absolute;
   left: 0;
   top: 0;
-  bottom: .5in;
+  bottom: 0.5in;
   width: 2.5in;
   background-color: rgb(19, 54, 131);
   font-size: 0.25in;
@@ -31,47 +31,53 @@ aside {
 main {
   position: absolute;
   left: 2.5in;
-  right: .5in;
+  right: 0.5in;
   top: 0;
-  bottom: .5in;
+  bottom: 0.5in;
 }
 
 h1 {
   margin: 0;
-  margin-bottom: .2in;
-  font-size: .4in;
-  padding: .1in;
-  padding-left: .15in;
+  margin-bottom: 0.2in;
+  font-size: 0.4in;
+  padding: 0.1in;
+  padding-left: 0.15in;
 }
 
 aside h2 {
-  font-size: .3in;
+  font-size: 0.3in;
   background-color: #002e58;
-  padding: .1in;
-  padding-left: .15in;
-  padding-top: .16in;
-  margin-bottom: .0in;
+  padding: 0.1in;
+  padding-left: 0.15in;
+  padding-top: 0.16in;
+  margin-bottom: 0in;
 }
 
-h3 {
-  font-size: 0.15in;
-  padding: .1in;
-  padding-left: .15in;
-  margin-bottom: 0;
+aside h3 {
+  font-size: 0.3in;
+  padding: 0.1in;
+  padding-left: 0.2in;
+  margin-top: 0.1in;
+  margin-bottom: 0.035in;
   padding-bottom: 0;
 }
 
 aside div {
-  margin: .1in;
-  padding-left: .05in;
+  text-align: right;
+  margin: 0.1in;
+  padding-right: 0.1in;
 }
 
 main h3 {
   padding-left: 0;
 }
 
+.p-job-title {
+  text-align: center;
+}
+
 .personal_info {
-  font-size: 0.20in;
+  font-size: 0.2in;
   padding-top: 0;
   margin-top: 0;
 }
@@ -87,25 +93,25 @@ main h3 {
 .phone {
   padding-top: 0;
   margin-top: 0;
-  font-size: .325in;
+  font-size: 0.325in;
 }
 
 .linkedin {
   padding-top: 0;
   margin-top: 0;
-  font-size: .18in;
+  font-size: 0.18in;
 }
 
 .github {
   padding-top: 0;
   margin-top: 0;
-  font-size: .22in;
+  font-size: 0.22in;
 }
 
 .twitter {
   padding-top: 0;
   margin-top: 0;
-  font-size: .37in;
+  font-size: 0.37in;
 }
 
 a {
@@ -120,29 +126,29 @@ main {
 }
 
 section {
-  margin-left: .1in;
+  margin-left: 0.1in;
 }
 
 section h2 {
-  font-size: .25in;
+  font-size: 0.25in;
   color: #002e58;
-  margin-top: .1in;
+  margin-top: 0.01in;
   margin-bottom: 0;
-  padding: .1in;
-  padding-bottom: .08in;
-  padding-left: .2in;
-  padding-right: .2in;
+  padding: 0.1in;
+  padding-bottom: 0.08in;
+  padding-left: 0.2in;
+  padding-right: 0.2in;
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
 }
 
 section div h3:first-child {
-  padding-top: .01in;
+  padding-top: 0.01in;
 }
 
-section>div {
-  padding-left: .2in;
-  font-size: .2in;
+section > div {
+  padding-left: 0.2in;
+  font-size: 0.2in;
 }
 
 section a {
@@ -150,5 +156,5 @@ section a {
 }
 
 .bare {
-  padding-top: .1in;
+  padding-top: 0.1in;
 }
